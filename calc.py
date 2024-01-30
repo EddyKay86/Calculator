@@ -1,5 +1,11 @@
-a=int(input("Enter a:"))
-b=int(input("Enter b:"))
-c=int(input("Enter c:"))
-operator=input("Enter Operator:")
+def calculator():
+    numbers = []
+    while True:
+        num = input("Enter a number(or 'done' to finish): ")
+        if num.lower() == 'done':
+            break
+        numbers.append(float(num)) 
+    operation = input("Enter operation (+, -, *, /): ")
+    
+    
 
