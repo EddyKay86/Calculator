@@ -21,6 +21,8 @@ def calculator():
             result /= number
     else:
         result = "Invalid operation"
+        print("The result is:",result)
+        calculator()
 
     
     
